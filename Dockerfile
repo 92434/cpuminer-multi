@@ -5,7 +5,7 @@
 #
 #
 
-FROM ubuntu:12.10
+FROM ubuntu:14.04
 RUN apt-get update && apt-get install -y \
   automake \
   libcurl4-openssl-dev \
